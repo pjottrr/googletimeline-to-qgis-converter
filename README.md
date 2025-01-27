@@ -31,7 +31,7 @@ The primary goal of this script is to convert location data exported from Google
 
 3. **Run the script**:
    ```bash
-   python location_history_fix.py <input_file.json> <output_file.geojson>
+   python location_history_json_converter.py <input_file.json> <output_file.geojson>
    ```
    Replace `<input_file.json>` with the path to your Google Timeline JSON file and `<output_file.geojson>` with the desired output path for the GeoJSON file.
 
@@ -42,7 +42,7 @@ The primary goal of this script is to convert location data exported from Google
 
 
 ```bash
-python location_history_fix.py LocationHistory.json LocationHistory.geojson 
+python location_history_json_converter.py LocationHistory.json LocationHistory.geojson 
 ```
 
 This command processes the `LocationHistory.json` file, and generates a `LocationHistory.geojson` file.
