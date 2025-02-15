@@ -8,6 +8,8 @@ This script was developed to address the challenge of visualizing Google Timelin
 ## Purpose
 
 The primary goal of this script is to convert location data exported from Google Timeline (in JSON format) into a GeoJSON file. This allows users to load the data into QGIS or other GIS software for further analysis and visualization.
+There used to be options to export data via google-out but since the locationhistory is now only available on your device, and the storage type has changed much compared the old data from google-out , i decided to create this script.
+
 
 ## Features
 
