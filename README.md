@@ -4,6 +4,7 @@ converting the google json data exported from timeline data ( from your device) 
 # Location History to GeoJSON Converter  
 
 This script was developed to address the challenge of visualizing Google Timeline data on maps, particularly in software like QGIS. Google Timeline exports are no longer directly compatible with many mapping tools, prompting the creation of this converter.
+nowadays you can export your timeline via Settings > Location > Location services > Timeline and select "Export timeline data".
 
 ## Purpose
 
